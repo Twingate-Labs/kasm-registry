@@ -2,7 +2,7 @@
   "description": "Google Chrome with Twingate Zero-Trust Network Access.",
   "docker_registry": "https://europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/",
   "image_src": "chromium.png",
-  "name": "tg-chrome:dev",
+  "name": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-chrome:dev",
   "run_config": {
     "hostname": "kasm"
   },
