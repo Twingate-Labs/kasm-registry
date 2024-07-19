@@ -1,12 +1,24 @@
 {
   "description": "Google Chrome with Twingate Zero-Trust Network Access.",
   "docker_registry": "https://europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/",
-  "image_src": "chromium.png",
+  "image_src": "https://play-lh.googleusercontent.com/GBhNhKgjfy6i6Ucc0hyB-79WmcV7LvKSfGSy8iStFdZSaLioKQp5rPWjqsh2YFRRZsE1",
   "name": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-chrome:dev",
   "run_config": {
+    "cap_add": [
+      "NET_ADMIN"
+    ],
+    "devices": [
+      "/dev/net/tun:/dev/net/tun:rwm"
+    ],
     "hostname": "kasm"
   },
   "exec_config": {
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    },
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    }
   },
   "categories": [
     "Browser"
