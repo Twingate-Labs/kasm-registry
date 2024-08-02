@@ -22,7 +22,7 @@ export default function Header({ searchText, changeSearch }) {
     <header className="relative font-light overflow-hidden bg-gradient-to-tr from-[#162d48] to-[#2980b9] p-8 xl:px-32 text-white gap-5 md:gap-0 flex flex-wrap justify-center items-center">
       <Bubbles />
       <div className='relative z-10'>
-        <div className="text-3xl">{process.env.name}</div>
+        <div className="text-3xl"><img src="/1.0/registry_logo.svg" alt="Twingate" className="w-[250px]"/></div>
         <div className="text-sm uppercase w-full flex justify-between">
           <span className='opacity-70'>W</span>
           <span className='opacity-70'>o</span>
