@@ -22,15 +22,16 @@
   },
   "categories": [
     "Desktop",
-    "DevOps",
-    "Development"
+    "Development",
+    "Devops"
   ],
   "friendly_name": "Twingate Desktop",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
+    "1.13.x",
+    "1.14.x",
     "1.15.x"
   ],
   "uncompressed_size_mb": 7660,
