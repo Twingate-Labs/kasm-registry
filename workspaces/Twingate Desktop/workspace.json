@@ -2,7 +2,6 @@
   "description": "Ubuntu Desktop with Twingate Zero-Trust Network Access.",
   "docker_registry": "https://europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/",
   "image_src": "twingate-desktop.svg",
-  "name": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-desktop:dev",
   "run_config": {
     "cap_add": [
       "NET_ADMIN"
@@ -29,11 +28,12 @@
   "architecture": [
     "amd64"
   ],
+  "notes": "For setup instructions please refer to Twingate documentation at https://[TODO]",
   "compatibility": [
-    "1.13.x",
-    "1.14.x",
-    "1.15.x"
-  ],
-  "uncompressed_size_mb": 7660,
-  "notes": "For setup instructions please refer to Twingate documentation at https://[TODO]"
+    {
+      "version": "1.16.x",
+      "image": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-desktop:dev",
+      "uncompressed_size_mb": 7660
+    }
+  ]
 }
