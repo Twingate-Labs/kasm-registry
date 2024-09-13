@@ -30,12 +30,14 @@ glob("../workspaces/**/workspace.json", async function (err, files) {
 			version,
 			image: image + tag,
 			uncompressed_size_mb: 0,
+			/*
 			available_tags: [
 				'develop',
 				tagversion,
 				tagversion + '-rolling-weekly',
 				tagversion + '-rolling-daily'
 			]
+			 */
 		}
 
 		if (exists === -1) {
