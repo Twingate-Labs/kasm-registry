@@ -34,6 +34,11 @@
       "version": "1.16.x",
       "image": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-desktop:dev",
       "uncompressed_size_mb": 7660
+    },
+    {
+      "version": "1.17.x",
+      "image": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-desktop:dev",
+      "uncompressed_size_mb": 7660
     }
   ]
 }
