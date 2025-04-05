@@ -32,6 +32,11 @@
       "version": "1.16.x",
       "image": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-chrome:dev",
       "uncompressed_size_mb": 2170
+    },
+    {
+      "version": "1.17.x",
+      "image": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-chrome:dev",
+      "uncompressed_size_mb": 2170
     }
   ]
 }
