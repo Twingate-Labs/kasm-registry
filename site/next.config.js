@@ -4,8 +4,8 @@ const nextConfig = {
   env: {
     name: 'Twingate Inc.',
     description: 'Repository for Kasm Workspace images for Twingate.',
-    icon: 'https://kasm.tg-labs.net/1.0/logo.svg',
-    listUrl: 'https://kasm.tg-labs.net/',
+    icon: 'https://kasm.twingate-labs.com/1.0/logo.svg',
+    listUrl: 'https://kasm.twingate-labs.com/',
     contactUrl: 'https://github.com/Twingate-Labs/kasm-registry/issues',
   },
   reactStrictMode: true,
