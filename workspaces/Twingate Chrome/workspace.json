@@ -1,8 +1,8 @@
 {
   "description": "Google Chrome with Twingate Zero-Trust Network Access.",
-  "docker_registry": "https://europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/",
+  "docker_registry": "https://us-docker.pkg.dev/twingate-prod/agentless/",
   "image_src": "twingate-chrome.svg",
-  "name": "europe-west2-docker.pkg.dev/twingate-labs/tg-agentless-images/tg-chrome:dev",
+  "name": "us-docker.pkg.dev/twingate-prod/agentless/tg-chrome:dev",
   "run_config": {
     "cap_add": [
       "NET_ADMIN"
